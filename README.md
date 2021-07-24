@@ -13,3 +13,6 @@ mysql> create database desafio;
 
 Abra o arquivo .env e atualize com suas credenciais.
 
+Na pasta do projeto no seu terminal, rode o comando:
+php artisan migrate 
+
