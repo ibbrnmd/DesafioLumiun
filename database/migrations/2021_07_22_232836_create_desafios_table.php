@@ -13,14 +13,13 @@ class CreateDesafiosTable extends Migration
      */
     public function up()
     {
-        Schema::create('desafios', function (Blueprint $table) {
+        Schema::create('livros', function (Blueprint $table) {
             $table->id();
-            $table->string();
             $table->string('title');
             $table->string('publisher');
             $table->string('author');
             $table->integer('pgNumber');
-            $table->string ('category');
+            $table->string('category');
             $table->string('releasingYear');
 
             $table->timestamps();
@@ -34,6 +33,6 @@ class CreateDesafiosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('desafios');
+        Schema::dropIfExists('livros');
     }
 }

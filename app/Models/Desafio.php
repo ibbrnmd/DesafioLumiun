@@ -8,4 +8,13 @@ use Illuminate\Database\Eloquent\Model;
 class Desafio extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'title',
+        'publisher',
+        'author',
+        'pgNumber',
+        'category',
+        'releasingYear'
+    ];
 }
