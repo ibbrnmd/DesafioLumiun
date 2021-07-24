@@ -8,17 +8,17 @@
     <thead>
         <tr>
           <td>ID</td>
-          <td>Title</td>
-          <td>Publisher</td>
-          <td>Author</td>
+          <td>Título</td>
+          <td>Editora</td>
+          <td>Autor</td>
           <td>Número de paginas</td>
-          <td>Category</td>
-          <td>Releasing Year</td>
-          <td colspan = 2>Actions</td>
+          <td>Categoria</td>
+          <td>Ano de lançamento</td>
+          <td colspan = 2>Ações</td>
         </tr>
     </thead>
     <div>
-    <a style="margin: 19px;" href="{{ route('livros.create')}}" class="btn btn-primary">Novo livro</a>
+    <a style="margin: 19px;" href="{{ route('livros.create')}}" class="btn btn-primary">Adicionar livro</a>
     </div>  
     <tbody>
         @foreach($livros as $livro)

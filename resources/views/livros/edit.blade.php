@@ -34,7 +34,7 @@
             </div>
             <div class="form-group">
                 <label for="pgNumber">Número de paginas:</label>
-                <input type="text" class="form-control" name="pgNumber" value={{ $livro->pgNumber }} />
+                <input type="number" class="form-control" name="pgNumber" value={{ $livro->pgNumber }} />
             </div>
             <div class="form-group">
                 <label for="category">Categoria:</label>
@@ -42,7 +42,7 @@
             </div>
             <div class="form-group">
                 <label for="releasingYear">Ano de lançamento:</label>
-                <input type="text" class="form-control" name="releasingYear" value={{ $livro->releasingYear }} />
+                <input type="number" class="form-control" name="releasingYear" value={{ $livro->releasingYear }} />
             </div>
             <button type="submit" class="btn btn-primary">Atualizar</button>
         </form>

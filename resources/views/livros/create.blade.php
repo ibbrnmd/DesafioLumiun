@@ -32,7 +32,7 @@
           </div>
           <div class="form-group">
               <label for="pgNumber">Número de páginas:</label>
-              <input type="text" class="form-control" name="pgNumber"/>
+              <input type="number" class="form-control" name="pgNumber"/>
           </div>
           <div class="form-group">
               <label for="category">Categoria:</label>
@@ -40,7 +40,7 @@
           </div>
           <div class="form-group">
               <label for="releasingYear">Ano de lançamento:</label>
-              <input type="text" class="form-control" name="releasingYear"/>
+              <input type="number" class="form-control" name="releasingYear"/>
           </div>                          
           <button type="submit" class="btn btn-primary">Adicionar livro</button>
       </form>
